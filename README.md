@@ -43,7 +43,7 @@ return [
 Optionally, if you want to alter the blade layouts, you can publish vendor views using following artisan command.
 
 ```
-artisan vendor:publish --provider="Roumen\Feed\FeedServiceProvider"artisan vendor:publish --provider="Roumen\Feed\FeedServiceProvider"
+artisan vendor:publish --provider="Roumen\Feed\FeedServiceProvider"
 ```
 
 # Eloquent Models
