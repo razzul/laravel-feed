@@ -252,7 +252,7 @@ class FeedBuilder
     private function getFeedData()
     {
         $maxSize = $this->config['max_size'];
-        $posts = Post::paginate($maxSize)->with['user'];
+        $posts = Post::paginate($maxSize);
         return $posts;
     }
 }
